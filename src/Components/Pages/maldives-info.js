@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from '../../Assets/images/maldives-about.jpeg';
 import '../../Assets/css/default.min.css';
-
+//// This component renders the Maldives blog post.
 class MaldivesInfo extends Component {
   render() {
     return (

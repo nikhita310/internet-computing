@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
 import logo from '../../Assets/images/london-about.jpg';
 import '../../Assets/css/default.min.css';
-
+// This component renders the London blog post.
 class LondonInfo extends Component {
   render() {
     return (
       
      <div className="information">
-     <h4><b>LONDON DIARIES</b></h4> 
+     <h4><b>LONDON DIARIES</b><span>14 February 2018</span></h4> 
      <p>London is a real world city – with some of the most famous buildings, museums and galleries in the world and 2000 years of history to go with them.
 
      But it’s not just looking backwards, there’s always a new bar, play or concert to see. London is also one of the most international cities, with people from all around the world making their home here, so it’s just as easy to get Indian street food as it is a roast dinner.
 
-     Yes, it might rain a lot and no people won’t smile on the Tube, but whatever you’re interested in – from museums to shopping, rock to opera, budget to luxury – there’s a London that will suit you.
+     Yes, it might rain a lot ,but whatever you’re interested in – from museums to shopping, rock to opera, budget to luxury – there’s a London that will suit you.
 
      </p> 
      <img src={logo} alt="London Information" className="places-img"/>

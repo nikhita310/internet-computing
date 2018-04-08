@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from '../../Assets/images/aboutme.gif';
 import '../../Assets/css/default.min.css';
-
+// This component renders the About Me page of the application.
 class AboutMe extends Component {
   render() {
     return (
@@ -12,9 +12,9 @@ class AboutMe extends Component {
      I believe To travel is to Live.<br/>
      I love travelling and sharing my experiences about the memories created about each place I visit.
      Beaches , Monuments, Forests, Nature makes me the happiest.
-     Visiting different places, meeting new people, tasting the local cuisine and shopping is what I love doing on repeat.
-     I aspire to travel all around the world and check off places from my travel bucketlist.
-     I hope my travel diaries will inspire you to travel and live life to the fullest. 
+    <br/> Visiting different places, meeting new people, tasting the local cuisine and shopping is what I love doing on repeat.
+     <br/>I aspire to travel all around the world and check off places from my travel bucketlist.
+     <br/>I hope my travel diaries will inspire you to travel and live life to the fullest. 
 
      </p> 
      <img src={logo} alt="About Me" className="aboutme-img"/>

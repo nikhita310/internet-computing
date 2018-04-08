@@ -3,6 +3,7 @@ import '../../Assets/css/default.min.css';
 import{
   Link
 } from  'react-router-dom';
+// This component renders the navigation section.
 class Navigation extends Component {
   render() {
     return (

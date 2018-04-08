@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import logo from '../../Assets/images/paris-about.jpg';
 import '../../Assets/css/default.min.css';
-
+// This component renders the Paris blog post.
 class ParisInfo extends Component {
   render() {
     return (
     	
      <div className="information">
-     <h4><b>PARIS DIARIES</b></h4> 
+     <h4><b>PARIS DIARIES</b><span>03 March 2018</span></h4> 
      <p>‘The city of lights’, ‘the city of Romance’, ‘the culinary capital of the world’, all these are just names Paris, France is known by. Over seven million people visit each year. Paris, France is one of the most amazing places you will ever visit. There are so many phenomenal things to see and do you’ll never get bored.
      <br/><br/>
      The most Prominent landmark in Paris would have to be the Eiffel Tower. More the seven million people visit the Eiffel Tower each year. For a small fee you can ride the elevator to the top. The view from the top is spectacular. If you want some exercise you can take the stairs that go from the ground to the second platform. Many People like to go to the Eiffel Tower at night because it is all light up. 
