@@ -10,8 +10,7 @@ import MaldivesInfo from './Components/Pages/maldives-info.js';
 import LondonInfo from './Components/Pages/london-info.js';
 import ParisInfo from './Components/Pages/paris-info.js';
 import {BrowserRouter as Router,
-  Route,
-  Link
+  Route
 } from  'react-router-dom';
 class App extends Component {
   render() {
