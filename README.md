@@ -7,7 +7,7 @@ Install node from https://nodejs.org/en/download/
 Version used : v8.10.0  
 
 
-Steps for Cloning Project from Git.  
+Steps for running the Project from Git.  
 1.Clone/download the project from git using the following command.  
 git clone https://github.com/nikhita310/internet-computing  
 Open a terminal on the root folder.  
